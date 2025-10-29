@@ -11,10 +11,10 @@ Quick start:
    python -m venv .venv
    source .venv/bin/activate   # mac/linux
    .venv\Scripts\activate    # windows (powershell)
-
-2. Install requirements:
-   pip install -r requirements.txt
-
+   
+2. download Django
+   pip install django
+   
 3. Run migrations and start server:
    python manage.py migrate
    python manage.py runserver
